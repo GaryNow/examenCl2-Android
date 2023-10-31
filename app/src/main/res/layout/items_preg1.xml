@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/lbl_nombre_plato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Autor: "
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-light">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/lbl_autor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Nombre Autor"
+                android:layout_weight="2"
+                android:textSize="20dp"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/lbl_lib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Libro: "
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-light">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/lbl_libro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Libro autor"
+                android:layout_weight="2"
+                android:textSize="20dp"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
